@@ -82,7 +82,7 @@ class App extends React.Component {
 
   handleSearchCity = () => {
     const value = this.state.value;
-    const APIkey = 'ENTER YOUR API KEY';
+    const APIkey = 'Enter your key';
 
     const weather = `https://api.openweathermap.org/data/2.5/weather?q=${value}&APPID=${APIkey}&units=metric`;
     const forecast = `https://api.openweathermap.org/data/2.5/forecast?q=${value}&APPID=${APIkey}&units=metric`;
